@@ -1,0 +1,21 @@
+# Manual steps stay LOCAL — never commit (dataset notes, deploy specifics)
+ManualSteps.md
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data — MovieLens/RetailRocket downloaded via ManualSteps; not committed raw
+data/raw/
+*.zip
+
+# Secrets
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
