@@ -1,0 +1,11 @@
+# Brand theme — Recsys Studio (ranking eval). Dark base + pink accent.
+[theme]
+base = "dark"
+primaryColor = "#e64980"
+backgroundColor = "#0e0f14"
+secondaryBackgroundColor = "#171a23"
+textColor = "#e6e8ee"
+font = "sans serif"
+
+[server]
+headless = true

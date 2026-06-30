@@ -11,9 +11,11 @@ import streamlit as st
 
 from data import build_dataset, load_movie_titles
 from metrics import evaluate
+from brand import apply_brand
 from models import ALSRecommender, ItemKNNRecommender, PopularityRecommender
 
 st.set_page_config(page_title="Recsys Studio", page_icon="🎬", layout="wide")
+apply_brand()
 K = 10
 
 
